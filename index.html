@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Residents</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 30px 20px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    header, section {
+      padding: 30px;
+      margin-bottom: 24px;
+      background: white;
+      border-radius: 16px;
+    }
+    h1 { font-size: clamp(30px, 6vw, 56px); }
+    .characters {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .character {
+      padding: 24px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      body { padding: 16px 12px; }
+      header, section { padding: 20px; }
+      .characters { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p>DIGITAL RESIDENTS / CHARACTER ARCHIVE</p>
+      <h1>WELCOME TO THE SYSTEM.</h1>
+      <p>디지털 세계에 살고 있는 작은 존재들의 이야기.</p>
+    </header>
+
+    <section>
+      <h2>ABOUT</h2>
+      <p>이곳은 디지털 주민들의 세계를 소개하는 공간입니다.</p>
+    </section>
+
+    <section>
+      <h2>CHARACTERS</h2>
+      <div class="characters">
+        <div class="character">
+          <h3>BLUE SCREEN</h3>
+          <p>블루스크린</p>
+          <p>PROFILE COMING SOON</p>
+        </div>
+        <div class="character">
+          <h3>COLOR BAR</h3>
+          <p>컬러바</p>
+          <p>PROFILE COMING SOON</p>
+        </div>
+        <div class="character">
+          <h3>WI-FI</h3>
+          <p>와이파이</p>
+          <p>PROFILE COMING SOON</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>ARCHIVE</h2>
+      <p>캐릭터 설정화와 작업 기록이 이곳에 추가됩니다.</p>
+    </section>
+
+    <footer>
+      <p>© Digital Residents</p>
+    </footer>
+  </main>
+</body>
+</html>
